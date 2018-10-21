@@ -1,0 +1,78 @@
+
+    i.fa.fa-music p, 
+    i.fa.fa-trophy p, 
+    i.fa.fa-gamepad p, 
+    i.fa.fa-cutlery p, 
+    i.fa.fa-birthday-cake p, 
+    i.fa.fa-bullseye p {
+        display: none;
+        position: absolute;
+       margin-top: -2em;
+    }
+   
+    i.fa.fa-music:hover p, 
+    i.fa.fa-trophy:hover p, 
+    i.fa.fa-gamepad:hover p, 
+    i.fa.fa-cutlery:hover p, 
+    i.fa.fa-birthday-cake:hover p, 
+    i.fa.fa-bullseye:hover p {
+        display: block !important;
+    }
+
+.icon i.fa.fa-music:hover p, 
+.icon i.fa.fa-trophy:hover p, 
+.icon i.fa.fa-gamepad:hover p, 
+.icon i.fa.fa-cutlery:hover p, 
+.icon i.fa.fa-birthday-cake:hover p, 
+.icon i.fa.fa-bullseye:hover p {
+    display: none !important;
+    }
+
+div#top-search {
+    display: none;
+}
+
+  #packs a {
+    color: #FFF;
+    border-color: #08c;
+    background-color: #08c;
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 5px;
+    }
+
+     #packs a:hover {
+        color: #f2f2f2;
+    border-color: #006da3;
+    background-color: #006da3;
+    }
+
+a#lanche:hover {
+    background: transparent;
+    color: #08c;
+}
+
+a#lanche {
+    background: transparent;
+    color: #000;
+    border-color: transparent;
+    border-radius: 0px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+div#fancy_wapper_contact_form_7_3128 {
+    position: relative;
+    padding: 10px;
+    margin: 0px 0;
+    border-width: 0;
+    text-align: left;
+    background-color: #fff;
+    overflow: auto;
+    box-sizing: border-box;
+}
+  
+}
+
+
+
